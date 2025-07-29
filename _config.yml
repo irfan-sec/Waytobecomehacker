@@ -1,7 +1,0 @@
-title: Way to Become Hacker
-description: A simple guide to hacking and cybersecurity
-theme: jekyll-theme-midnight
-markdown: kramdown
-highlighter: rouge
-plugins:
-  - jekyll-seo-tag
