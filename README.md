@@ -1,43 +1,34 @@
-# 🧠 Cyber Security Learning Paths – TryHackMe Based
+# 🧠 waytobecomehacker
 
-Welcome to my curated repository for exploring career paths in **Cyber Security** with a focus on the **Security Analyst** role. This repo serves as both a study guide and progress tracker for completing key TryHackMe learning paths and career resources.
-
----
-
-## 🔐 About the Security Analyst Role
-
-Security Analysts are on the frontline of protecting organisations from cyber threats. Their job is to:
-
-- Monitor systems for vulnerabilities and breaches
-- Analyze security incidents and document findings
-- Develop proactive security strategies
-- Work with stakeholders to maintain a strong security posture
+> A practical guide to launching your cyber security career — from total beginner to job-ready roles.  
+> Inspired by TryHackMe’s learning paths, this repo outlines how to specialize in different cyber security domains.
 
 ---
 
-## 🎓 Learning Paths on TryHackMe
+## 🔐 What is This Repo?
 
-These paths offer a hands-on approach to learning cyber security, from beginner to job-ready:
-
-| Path | Description | Link |
-|------|-------------|------|
-| **Pre-Security** | Learn the basics of cyber security and how computers and networks work | [Start Now](https://tryhackme.com/path/outline/presecurity) |
-| **Cyber Security 101** | Dive deeper into essential concepts and tools | [Start Now](https://tryhackme.com/path/outline/cybersecurity101) |
-| **SOC Level 1** | Learn how to become a Level 1 SOC Analyst | [Start Now](https://tryhackme.com/path/outline/soclevel1) |
+**`waytobecomehacker`** is a roadmap-style collection of cyber security career paths, with learning resources, responsibilities, skills, and recommended TryHackMe training for each role. Whether you're starting from scratch or pivoting from IT, this is your launchpad into ethical hacking and defensive security careers.
 
 ---
 
-## 📘 Career Resources
+## 🛣️ Career Paths Included
 
-- ✅ Becoming a Cyber Security Analyst  
-- ✅ How to Become a Level 1 SOC Analyst  
-- ✅ A Day in the Life of a SOC Analyst  
-- ✅ The Ultimate SOC L1 Analyst Interview Guide  
-- ✅ From Student to SOC Analyst: Hayden’s Success Story
-
-> _These guides help you understand the job, prepare for interviews, and visualize a real-life career in cybersecurity._
+| Role | Description |
+|------|-------------|
+| [🛡️ Security Analyst](./security-analyst.md) | Monitor, analyze, and report on threats across systems and networks |
+| [🔧 Security Engineer](./security-engineer.md) | Build and maintain secure infrastructure, systems, and controls |
+| [🚨 Incident Responder](./incident-responder.md) | Detect, contain, and recover from live cyberattacks |
+| [🧪 Digital Forensics Examiner](./digital-forensics-examiner.md) | Investigate cyber incidents and gather digital evidence |
+| [🧬 Malware Analyst](./malware-analyst.md) | Reverse-engineer malicious software to understand and defend |
+| [💥 Penetration Tester](./penetration-tester.md) | Ethically hack systems to find and report security flaws |
 
 ---
 
-## 🗂️ Repo Structure
+## 🧭 Recommended Learning Platform
+
+All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cyber security platform that teaches practical skills using guided labs and virtual environments.
+
+---
+
+## 📁 Repo Structure
 
