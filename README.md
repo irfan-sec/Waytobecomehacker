@@ -2,7 +2,7 @@
 ![Built With](https://img.shields.io/badge/built%20with-Markdown-blue)
 ![Hosted On](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-lightgrey)
 
-# 🧠 waytobecomehacker
+# 🧠 Way to become Hacker
 
 > A practical guide to launching your cyber security career — from total beginner to job-ready roles.  
 > Inspired by TryHackMe’s learning paths, this repo outlines how to specialize in different cyber security domains.
