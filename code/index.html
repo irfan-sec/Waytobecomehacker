@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Way to Become Hacker</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff99;
+      font-family: "Courier New", monospace;
+      text-align: center;
+      padding: 50px;
+      overflow-x: hidden;
+    }
+    h1 { font-size: 2.5rem; }
+    p { font-size: 1.2rem; }
+
+    .terminal-box {
+      border: 2px solid #00ff99;
+      padding: 20px;
+      margin-top: 30px;
+      display: inline-block;
+      text-align: left;
+      background-color: #000;
+      box-shadow: 0 0 15px #00ff99;
+    }
+
+    .blink {
+      animation: blink 1s infinite;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    /* Hacker background animation */
+    .matrix {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      z-index: -1;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="matrix"><canvas id="matrixCanvas"></canvas></div>
+
+  <h1>💻 Way to Become Hacker</h1>
+  <p>Learn Cybersecurity • Hacking • PenTesting</p>
+
+  <div class="terminal-box">
+    <p>$ whoami<span class="blink">_</span></p>
+    <p>irfan-sec</p>
+    <p>$ ./start-learning</p>
+    <p>Loading resources...</p>
+    <p>Success! Welcome to the journey 🚀</p>
+  </div>
+
+  <script>
+    console.log("Welcome Hacker! Your journey starts here.");
+
+    // Matrix Rain Background Effect
+    const canvas = document.getElementById('matrixCanvas');
+    const ctx = canvas.getContext('2d');
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
+
+    const letters = "01".split("");
+    const fontSize = 14;
+    const columns = canvas.width / fontSize;
+    const drops = Array(Math.floor(columns)).fill(1);
+
+    function draw() {
+      ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.fillStyle = "#00ff99";
+      ctx.font = fontSize + "px monospace";
+
+      for (let i = 0; i < drops.length; i++) {
+        const text = letters[Math.floor(Math.random() * letters.length)];
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
+        drops[i]++;
+      }
+    }
+
+    setInterval(draw, 33);
+    window.addEventListener('resize', () => {
+      canvas.height = window.innerHeight;
+      canvas.width = window.innerWidth;
+    });
+  </script>
+</body>
+</html>
