@@ -31,4 +31,64 @@ All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cy
 ---
 
 ## 📁 Repo Structure
+waytobecomehacker/
+├── security-analyst.md
+├── security-engineer.md
+├── incident-responder.md
+├── digital-forensics-examiner.md
+├── malware-analyst.md
+├── penetration-tester.md
+├── notes/
+│ ├── tools.md
+│ ├── certifications.md
+│ └── interview-prep.md
+└── README.md
+
+
+---
+
+## 🛠️ Tools You Might Use Along the Way
+
+- Nmap, Burp Suite, Wireshark
+- Metasploit, Hydra, Gobuster
+- Ghidra, IDA Pro, Cuckoo Sandbox
+- Autopsy, FTK Imager, Volatility
+- Splunk, ELK Stack, SIEMs
+
+---
+
+## 💬 Why This Repo?
+
+This project exists to:
+
+✅ Help beginners choose a cyber security career path  
+✅ Provide practical roadmaps with real-world tools  
+✅ Centralize the best free training content  
+✅ Make hacking education accessible to everyone  
+
+---
+
+## 🙋‍♂️ Who Is This For?
+
+- Students and beginners in tech  
+- IT professionals transitioning into security  
+- Hobbyists and ethical hackers  
+- Anyone curious about how to become a hacker — the right way
+
+---
+
+## 📬 Contributions
+
+Want to add your own notes, tools, or tutorials? Feel free to fork this repo and submit a pull request. Contributions are welcome!
+
+---
+
+## 🧨 Disclaimer
+
+This repo is for **educational** and **ethical** purposes only. Use your skills responsibly and legally.
+
+---
+
+Made with ❤️ using [TryHackMe](https://tryhackme.com/) paths and personal learning notes.
+
 
