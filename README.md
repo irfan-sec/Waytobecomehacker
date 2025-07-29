@@ -19,7 +19,7 @@
 
 | Role | Description |
 |------|-------------|
-| [🛡️ Security Analyst](./security-analyst.md) | Monitor, analyze, and report on threats across systems and networks |
+| [🛡️ Security Analyst](./SecurityAnalyst.md) | Monitor, analyze, and report on threats across systems and networks |
 | [🔧 Security Engineer](./security-engineer.md) | Build and maintain secure infrastructure, systems, and controls |
 | [🚨 Incident Responder](./incident-responder.md) | Detect, contain, and recover from live cyberattacks |
 | [🧪 Digital Forensics Examiner](./digital-forensics-examiner.md) | Investigate cyber incidents and gather digital evidence |
