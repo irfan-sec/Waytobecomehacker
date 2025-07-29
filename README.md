@@ -20,11 +20,11 @@
 | Role | Description |
 |------|-------------|
 | [🛡️ Security Analyst](./SecurityAnalyst.md) | Monitor, analyze, and report on threats across systems and networks |
-| [🔧 Security Engineer](./security-engineer.md) | Build and maintain secure infrastructure, systems, and controls |
-| [🚨 Incident Responder](./incident-responder.md) | Detect, contain, and recover from live cyberattacks |
-| [🧪 Digital Forensics Examiner](./digital-forensics-examiner.md) | Investigate cyber incidents and gather digital evidence |
-| [🧬 Malware Analyst](./malware-analyst.md) | Reverse-engineer malicious software to understand and defend |
-| [💥 Penetration Tester](./penetration-tester.md) | Ethically hack systems to find and report security flaws |
+| [🔧 Security Engineer](./SecurityEngineer.md) | Build and maintain secure infrastructure, systems, and controls |
+| [🚨 Incident Responder](./IncidentResponder.md) | Detect, contain, and recover from live cyberattacks |
+| [🧪 Digital Forensics Examiner](./DigitalForensicsExaminer.md) | Investigate cyber incidents and gather digital evidence |
+| [🧬 Malware Analyst](./MalwareAnalyst.md) | Reverse-engineer malicious software to understand and defend |
+| [💥 Penetration Tester](./PenetrationTester.md) | Ethically hack systems to find and report security flaws |
 
 ---
 
@@ -36,13 +36,13 @@ All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cy
 
 ## 📁 Repo Structure
 waytobecomehacker/
-├── security-analyst.md
-├── security-engineer.md
-├── incident-responder.md
-├── digital-forensics-examiner.md
-├── malware-analyst.md
-├── penetration-tester.md
-├── notes/
+├── SecurityAnalyst.md
+├── SecurityEngineer.md
+├── IncidentResponder.md
+├── DigitalForensics-examiner.md
+├── MalwareAnalyst.md
+├── PenetrationTester.md
+├── Notes/
 │ ├── tools.md
 │ ├── certifications.md
 │ └── interview-prep.md
