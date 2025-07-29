@@ -92,3 +92,6 @@ This repo is for **educational** and **ethical** purposes only. Use your skills 
 Made with ❤️ using [TryHackMe](https://tryhackme.com/) paths and personal learning notes.
 
 
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Built With](https://img.shields.io/badge/built%20with-Markdown-blue)
+![Hosted On](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-lightgrey)
