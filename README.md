@@ -44,7 +44,7 @@ All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cy
 ---
 
 ## 📁 Resources
-[Newtworking](./Networking/OSI.md)
+[Newtworking](./Networking/)
 
 
 ---
