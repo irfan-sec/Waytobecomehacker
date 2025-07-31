@@ -15,18 +15,17 @@ This repository will take you from **networking fundamentals** to **advanced net
    - Topologies and their use cases
 
 2.  <p align="center">
-  <a href="./OSI.md">
-    <button style="
+  <a href="02_OSI_Model/osi_model.md" style="
       background-color:#0078D7;
       color:white;
-      padding:10px 20px;
-      border:none;
-      border-radius:8px;
-      cursor:pointer;
+      padding:8px 16px;
+      border-radius:6px;
+      text-decoration:none;
       font-weight:bold;">
-      OSI Model
-    </button>
+    OSI Model
   </a>
+</p>
+
    - 7 Layers of the OSI Model
    - Mnemonics to remember the layers
    - How data travels through the layers
