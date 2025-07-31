@@ -14,7 +14,17 @@ This repository will take you from **networking fundamentals** to **advanced net
    - Types of Networks (LAN, WAN, MAN, PAN)
    - Topologies and their use cases
 
-2. **[The OSI Model](./OSI.md) >Click here for full content**
+2. <p align="center">
+  <a href="./OSI.md">
+    <img src="https://img.shields.io/badge/OSI%20Model-7%20Layers-blue?style=for-the-badge" />
+  </a>
+  <a href="03_TCPIP_Model/tcp_ip_model.md">
+    <img src="https://img.shields.io/badge/TCP/IP%20Model-4%20Layers-green?style=for-the-badge" />
+  </a>
+  <a href="04_IP_Addressing/ip_subnetting.md">
+    <img src="https://img.shields.io/badge/IP%20Addressing-Subnetting-orange?style=for-the-badge" />
+  </a>
+</p>
    - 7 Layers of the OSI Model
    - Mnemonics to remember the layers
    - How data travels through the layers
