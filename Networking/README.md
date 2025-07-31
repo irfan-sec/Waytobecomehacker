@@ -14,7 +14,7 @@ This repository will take you from **networking fundamentals** to **advanced net
    - Types of Networks (LAN, WAN, MAN, PAN)
    - Topologies and their use cases
 
-2. <p>
+2.  <p>
   <a href="./OSI.md" style="
       background-color:#0078D7;
       color:white;
@@ -24,7 +24,7 @@ This repository will take you from **networking fundamentals** to **advanced net
       font-weight:bold;">
     OSI Model
   </a>
-</p>
+  </p>
 
    - 7 Layers of the OSI Model
    - Mnemonics to remember the layers
