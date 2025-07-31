@@ -14,10 +14,10 @@ This repository will take you from **networking fundamentals** to **advanced net
    - Types of Networks (LAN, WAN, MAN, PAN)
    - Topologies and their use cases
 
-2. <p align="center">
+2. **<p align="center">
   <a href="./OSI.md">
     <img src="https://img.shields.io/badge/OSI%20Model-7%20Layers-blue?style=for-the-badge" />
-  </a>
+  </a>**
    - 7 Layers of the OSI Model
    - Mnemonics to remember the layers
    - How data travels through the layers
