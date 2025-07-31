@@ -43,19 +43,8 @@ All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cy
 
 ---
 
-## 📁 Repo Structure
-waytobecomehacker/
-├── SecurityAnalyst.md
-├── SecurityEngineer.md
-├── IncidentResponder.md
-├── DigitalForensics-examiner.md
-├── MalwareAnalyst.md
-├── PenetrationTester.md
-├── Notes/
-│ ├── tools.md
-│ ├── certifications.md
-│ └── interview-prep.md
-└── README.md
+## 📁 Resources
+[Newtworking](./Networking/OSI.md)
 
 
 ---
