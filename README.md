@@ -24,7 +24,7 @@ Why get a career in cyber:
 
 ---
 
-## 🛣️ Career Paths Included
+## 🛣️ Career Paths For Cyber Security
 
 | Role | Description |
 |------|-------------|
@@ -43,7 +43,7 @@ All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cy
 
 ---
 
-## 📁 Resources
+## 📁 Resources To Learning
 [Newtworking](./Networking/)
 
 
