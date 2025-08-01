@@ -15,7 +15,7 @@ This repository will take you from **networking fundamentals** to **advanced net
    - Topologies and their use cases
 
 2. **[OSI](./OSI)**
-         >###Click Here To read me
+         >Click Here To read me
   
    - 7 Layers of the OSI Model
    - Mnemonics to remember the layers
