@@ -230,10 +230,3 @@ Other useful switches:
 * Apply **firewall evasion techniques** when necessary
 
 Nmap is a **powerful reconnaissance tool** when used properly, forming the foundation for any penetration test or security audit.
-
----
-
-This is **one continuous Markdown file**.
-Just **copy everything above and paste** into your `Nmap.md`.
-
----
