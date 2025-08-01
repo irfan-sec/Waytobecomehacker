@@ -14,8 +14,7 @@ This repository will take you from **networking fundamentals** to **advanced net
    - Types of Networks (LAN, WAN, MAN, PAN)
    - Topologies and their use cases
 
-2. **[OSI](./OSI)**
-         >Click Here To read me
+2. **[OSI Read More](./OSI)**
   
    - 7 Layers of the OSI Model
    - Mnemonics to remember the layers
