@@ -14,41 +14,34 @@ This repository will take you from **networking fundamentals** to **advanced net
    - Types of Networks (LAN, WAN, MAN, PAN)
    - Topologies and their use cases
 
-2. <a href="./OSI.md" style="
-      background-color:#0078D7;
-      color:white;
-      padding:8px 16px;
-      border-radius:6px;
-      text-decoration:none;
-      font-weight:bold;">
-    OSI Model
-  </a>
+2. **[OSI](./OSI)**
+         >###Click Here To read me
   
    - 7 Layers of the OSI Model
    - Mnemonics to remember the layers
    - How data travels through the layers
 
-3. **TCP/IP Model**
+4. **TCP/IP Model**
    - 4 Layers of TCP/IP
    - Mapping OSI → TCP/IP
    - Real-world relevance
 
-4. **IP Addressing & Subnetting**
+5. **IP Addressing & Subnetting**
    - IPv4 and IPv6
    - Public vs Private IPs
    - Subnets, CIDR, and VLSM
 
-5. **Ports and Protocols**
+6. **Ports and Protocols**
    - Common TCP/UDP ports
    - How services communicate
    - Firewalls and port filtering
 
-6. **Practical Networking**
+7. **Practical Networking**
    - Packet capturing with Wireshark
    - Ping, Traceroute, and Nmap basics
    - Understanding DNS, DHCP, NAT
 
-7. **Advanced Topics**
+8. **Advanced Topics**
    - VPNs, VLANs, and Routing
    - Network Security and Firewalls
    - Penetration Testing Basics
