@@ -47,14 +47,14 @@ Tool of choice: **Nmap**, the industry standard for port scanning and service di
 
 Nmap is primarily run from the terminal:
 
-`nmap [options] <target>`
+`nmap [options] [target]`
 
 * **Help menu:** `nmap -h`
 * **Manual page:** `man nmap`
 
 **Examples of useful switches:**
 
-* `-p <ports>` → Specify ports
+* `-p [ports]` → Specify ports
 * `-sV` → Detect service versions
 * `-O` → OS detection
 * `-A` → Aggressive scan (OS + version + script scan + traceroute)
@@ -86,7 +86,7 @@ Performs a **full TCP three-way handshake** with each port:
 3. If port is filtered → No response
 
 **Example:**
-`sudo nmap -sT <target>`
+`sudo nmap -sT [target]`
 
 Pros:
 
@@ -106,7 +106,7 @@ Also known as **Half-open / Stealth scans**:
 * Sends **RST** immediately instead of completing handshake
 
 **Example:**
-`sudo nmap -sS <target>`
+`sudo nmap -sS [target]`
 
 Advantages:
 
@@ -122,7 +122,7 @@ Advantages:
 * Closed ports send **ICMP Port Unreachable**
 
 **Example:**
-`sudo nmap -sU --top-ports 20 <target>`
+`sudo nmap -sU --top-ports 20 [target]`
 
 ⚠ **Note:** UDP scans are **very slow** (\~20 mins for 1000 ports).
 
@@ -140,9 +140,9 @@ Behavior:
 * **Open port or filtered** → No response (`open|filtered`)
 
 **Examples:**
-`sudo nmap -sN <target>`
-`sudo nmap -sF <target>`
-`sudo nmap -sX <target>`
+`sudo nmap -sN [target]`
+`sudo nmap -sF [target]`
+`sudo nmap -sX [target]`
 
 ---
 
@@ -177,16 +177,16 @@ The **NSE** uses Lua scripts to extend Nmap’s functionality.
 ## 10. Using NSE Scripts & Arguments
 
 Run scripts by category:
-`nmap --script=vuln <target>`
+`nmap --script=vuln [target]`
 
 Run multiple scripts:
-`nmap --script=smb-enum-users,smb-enum-shares <target>`
+`nmap --script=smb-enum-users,smb-enum-shares [target]`
 
 Use script arguments:
 `nmap -p 80 --script http-put --script-args http-put.url='/dav/shell.php',http-put.file='./shell.php'`
 
 Check script help:
-`nmap --script-help <script-name>`
+`nmap --script-help [script-name]`
 
 ---
 
@@ -202,7 +202,7 @@ Search locally:
 Install new scripts:
 
 ```
-sudo wget -O /usr/share/nmap/scripts/<script-name>.nse https://svn.nmap.org/nmap/scripts/<script-name>.nse
+sudo wget -O /usr/share/nmap/scripts/[script-name].nse https://svn.nmap.org/nmap/scripts/[script-name].nse
 sudo nmap --script-updatedb
 ```
 
@@ -211,13 +211,13 @@ sudo nmap --script-updatedb
 ## 12. Firewall Evasion & Stealth Scanning
 
 **Bypass ICMP-blocking firewalls:**
-`nmap -Pn <target>`
+`nmap -Pn [target]`
 
 Other useful switches:
 
 * `-f` → Fragment packets
-* `--mtu <size>` → Custom packet size (multiple of 8)
-* `--scan-delay <ms>` → Delay between packets (evade IDS/timing triggers)
+* `--mtu [size]` → Custom packet size (multiple of 8)
+* `--scan-delay [ms]` → Delay between packets (evade IDS/timing triggers)
 * `--badsum` → Send packets with invalid checksums (test firewalls)
 
 ---
