@@ -232,4 +232,4 @@ Other useful switches:
 Nmap is a **powerful reconnaissance tool** when used properly, forming the foundation for any penetration test or security audit.
 
 ###Learn More
-[Nmap-Live-Host-Discovery](./Nmap-Live-Host-Discovery.md)
+[Nmap Live Host Discovery](./Nmap-Live-Host-Discovery.md)
