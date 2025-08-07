@@ -51,7 +51,7 @@ All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cy
 
 ## 🛠️ Tools You Might Use Along the Way
 
-- [Nmap](Networking/Tools/Nmap.md), Burp Suite, Wireshark
+- [Nmap](Networking/Tools/Nmap.md), [Burp Suite](Web-Hacking-Tools/BurpSuite.md), Wireshark
 - Metasploit, Hydra, Gobuster
 - Ghidra, IDA Pro, Cuckoo Sandbox
 - Autopsy, FTK Imager, Volatility
