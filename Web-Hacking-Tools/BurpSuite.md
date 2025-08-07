@@ -1,39 +1,47 @@
-# Introduction to Burp Suite
+# Mastering Burp Suite: A Learning Roadmap 🗺️
 
-Burp Suite is a professional toolkit for web application security testing. It primarily functions as an intercepting proxy, sitting between a user's browser and the target web server. This allows an analyst to inspect, modify, and replay web traffic to find security vulnerabilities.
-
----
-
-## Core Components
-
--   **Proxy:** The heart of Burp, used to intercept and view HTTP/S traffic.
--   **Repeater:** Allows for manual modification and re-sending of individual requests to analyze server responses.
--   **Intruder:** Automates sending customized requests to test for a variety of vulnerabilities.
+This document is my personal roadmap for mastering Burp Suite, the industry-standard toolkit for web application penetration testing. I will add my notes to each section as I progress through the different levels of mastery.
 
 ---
 
-## Basic Setup: Intercepting Traffic
+## Level 1: The Beginner - The Traffic Inspector 🕵️
 
-My first exercise was to intercept the traffic to my own GitHub Pages site to understand the flow.
+**Goal:** To understand and control the flow of traffic between a browser and a target. This is the foundation for everything else.
 
-### 1. Browser Proxy Configuration
-The first step is to configure the browser's proxy settings to point to Burp's default listener. This redirects all browser traffic through Burp.
-
--   **Host/IP:** `127.0.0.1`
--   **Port:** `8080`
-
-### 2. Installing the CA Certificate
-To intercept and decrypt HTTPS traffic without browser errors, Burp's CA certificate must be installed and trusted by the browser.
-
-1.  With the proxy configured, navigate to `http://burpsuite` in the browser.
-2.  Download the `cacert.der` file.
-3.  In the browser's certificate manager, import and set the certificate to be trusted for identifying websites.
-
-### 3. A Captured Request
-With the setup complete, I enabled 'Intercept is on' and navigated to my website. Burp successfully captured the `GET` request. This allows for a deep inspection of all request headers, such as `Host`, `User-Agent`, and `Cookies`. By clicking "Forward," the request is sent to the server, and the subsequent response is also captured before being sent to the browser.
+### Modules to Master:
+* **Proxy (Intercept):** The core of Burp. I will learn to catch, forward, and drop requests and responses to see them in their raw format.
+* **Proxy (HTTP History):** The logbook of all traffic. I will learn to use this to find interesting requests to analyze later.
+* **Target (Scope):** A critical first step. I will learn to define a scope to focus only on my target, reducing noise and keeping my testing organized.
 
 
+---
 
-## Lessons Learned
+## Level 2: The Intermediate - The Manual Attacker 👨‍💻
 
-Burp Suite provides incredible visibility into the normally invisible communication between a browser and a server. Mastering the Proxy tool is the first and most critical step in web application penetration testing.
+**Goal:** To actively manipulate and replay individual requests to find basic vulnerabilities.
+
+### Modules to Master:
+* **Repeater:** This is for manual testing. I will practice sending interesting requests from the Proxy History to Repeater, modifying parameters (like user IDs, filenames, or commands), and analyzing how the server's response changes.
+* **Decoder:** A utility for converting data between different formats, like Base64, URL, and HTML encoding.
+
+
+---
+
+## Level 3: The Advanced - The Automation Specialist 🤖
+
+**Goal:** To automate sending thousands of requests to find vulnerabilities at scale that would be impossible to find manually.
+
+### Modules to Master:
+* **Intruder:** Burp's powerful automated attack tool. I will learn the different attack types (Sniper, Battering Ram, etc.) to perform tasks like brute-forcing login forms, fuzzing for input vulnerabilities (like SQL Injection), and discovering hidden content.
+* **Sequencer:** An advanced tool for analyzing the randomness of session tokens to see if they are predictable.
+
+
+---
+
+## Level 4: The Expert - The Extender 🛠️
+
+**Goal:** To customize and extend Burp Suite's capabilities to fit any testing scenario.
+
+### Modules to Master:
+* **Extender (BApp Store):** I will learn to find, install, and use popular extensions from the community that add new features and scanning capabilities to Burp.
+* **Extender (APIs):** A long-term goal is to learn how to write my own Burp extensions using Python to automate custom attacks and workflows.
