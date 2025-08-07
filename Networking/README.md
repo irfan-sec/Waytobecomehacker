@@ -9,7 +9,7 @@ This repository is perfect for **students, ethical hackers, penetration testers,
 
 This repository will take you from **networking fundamentals** to **advanced networking and security** concepts:
 
-1. **Introduction to Networking**
+1. **Introduction to Networking** ***[Read more](/Networking-Fundamentals.md)***
    - What is a Network?
    - Types of Networks (LAN, WAN, MAN, PAN)
    - Topologies and their use cases
