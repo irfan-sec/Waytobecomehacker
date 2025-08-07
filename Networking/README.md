@@ -9,12 +9,12 @@ This repository is perfect for **students, ethical hackers, penetration testers,
 
 This repository will take you from **networking fundamentals** to **advanced networking and security** concepts:
 
-1. **Introduction to Networking** ***[Read more](Networking-Fundamentals.md)***
+1. **Introduction to Networking** ***[Read more](/Networking/Tools/Networking-Fundamentals.md)***
    - What is a Network?
    - Types of Networks (LAN, WAN, MAN, PAN)
    - Topologies and their use cases
 
-2. **OSI** ***[Read more](OSI)***
+2. **OSI** ***[Read more](/Networking/Tools/OSI)***
   
    - 7 Layers of the OSI Model
    - Mnemonics to remember the layers
