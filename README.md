@@ -52,7 +52,7 @@ Basic Web Tech
 ## 🛠️ Tools You Might Use Along the Way
 
 - [Nmap](Networking/Tools/Nmap.md), [Burp Suite](Web-Hacking-Tools/BurpSuite.md), [Wireshark](Networking/Tools/Wireshark-Roadmap.md)
-- Metasploit, Hydra, Gobuster
+- [Metasploit](Web-Hacking-Tools/Metasploit-Notes.md), Hydra, Gobuster
 - Ghidra, IDA Pro, Cuckoo Sandbox
 - Autopsy, FTK Imager, Volatility
 - Splunk, ELK Stack, SIEMs
