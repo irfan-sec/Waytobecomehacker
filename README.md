@@ -45,7 +45,7 @@ All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cy
 
 ## 📁 Resources To Learning
 [Networking](./Networking/)
-
+Basic Web Tech
 
 ---
 
