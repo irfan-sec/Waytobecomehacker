@@ -6,6 +6,8 @@
 
 > A practical guide to launching your cyber security career — from total beginner to job-ready roles.  
 > Inspired by TryHackMe’s learning paths, this repo outlines how to specialize in different cyber security domains.
+> 
+> **Topics:** `cybersecurity` `ethical-hacking` `penetration-testing` `cybersecurity-education` `security-analyst` `incident-response` `malware-analysis` `digital-forensics` `cybersecurity-careers` `learning-resources`
 
 ---
 # Introduction
@@ -37,9 +39,11 @@ Why get a career in cyber:
 
 ---
 
-## 🧭 Recommended Learning Platform
+## 🧭 Recommended Learning Platforms
 
 All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cyber security platform that teaches practical skills using guided labs and virtual environments.
+
+For additional cybersecurity learning resources and courses, visit **[CyberLearn Systems](https://www.cyberlearn.systems)** — a comprehensive platform for cybersecurity education and training.
 
 ---
 
@@ -105,4 +109,4 @@ This repo is for **educational** and **ethical** purposes only. Use your skills 
 
 ---
 
-Made with ❤️ using [TryHackMe](https://tryhackme.com/) paths and personal learning notes.
+Made with ❤️ using [TryHackMe](https://tryhackme.com/) paths and personal learning notes. Learn more at [CyberLearn Systems](https://www.cyberlearn.systems).
