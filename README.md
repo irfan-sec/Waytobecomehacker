@@ -70,6 +70,20 @@ This project exists to:
 
 ---
 
+## 🚀 My Learning Roadmap
+
+- [ ] Introduction to Cybersecurity
+- [ ] Networking Basics
+- [ ] Linux Fundamentals
+- [ ] Scripting with Bash and Python
+- [ ] Web Application Security
+- [ ] Vulnerability Scanning (e.g., Nmap, Nessus)
+- [ ] Exploitation Basics (Metasploit, manual techniques)
+- [ ] Capture The Flag (CTF) practice
+
+
+---
+
 ## 🙋‍♂️ Who Is This For?
 
 - Students and beginners in tech  
