@@ -1,3 +1,5 @@
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
 # Mastering Wireshark: A Learning Roadmap 🦈
 
 This document is my personal roadmap for mastering Wireshark, the world's most popular network protocol analyzer. I will add my notes to each section as I develop my skills in packet analysis, traffic filtering, and security analysis.

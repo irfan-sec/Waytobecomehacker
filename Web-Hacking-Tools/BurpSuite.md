@@ -1,3 +1,5 @@
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
 # Mastering Burp Suite: A Learning Roadmap 🗺️
 
 This document is my personal roadmap for mastering Burp Suite, the industry-standard toolkit for web application penetration testing. I will add my notes to each section as I progress through the different levels of mastery.
