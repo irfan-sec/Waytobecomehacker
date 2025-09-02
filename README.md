@@ -151,4 +151,4 @@ This repo is for **educational** and **ethical** purposes only. Use your skills 
 
 ---
 
-Made with ❤️ using [TryHackMe](https://tryhackme.com/) paths and [Jekyll](https://jekyllrb.com/) with [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
+Made with ❤️ using [TryHackMe](https://tryhackme.com/) paths and Personal Experiance
