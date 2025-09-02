@@ -1,8 +1,9 @@
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Built With](https://img.shields.io/badge/built%20with-Markdown-blue)
+![Built With](https://img.shields.io/badge/built%20with-Jekyll-red)
+![Theme](https://img.shields.io/badge/theme-Minimal%20Mistakes-blue)
 ![Hosted On](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-lightgrey)
 
-# 🧠 Way to become Hacker
+# 🧠 Way to Become Hacker
 
 > A practical guide to launching your cyber security career — from total beginner to job-ready roles.  
 > Inspired by TryHackMe’s learning paths, this repo outlines how to specialize in different cyber security domains.
@@ -99,10 +100,55 @@ Want to add your own notes, tools, or tutorials? Feel free to fork this repo and
 
 ---
 
+## 📝 Contributing to the Blog
+
+This site includes a Jekyll-powered blog for sharing cybersecurity insights, tutorials, and career guidance. Here's how to add content:
+
+### Adding a New Blog Post
+
+1. **Create a new file** in the `_posts` directory with the format: `YYYY-MM-DD-title.md`
+2. **Add front matter** at the top of your file:
+   ```yaml
+   ---
+   title: "Your Post Title"
+   date: YYYY-MM-DD
+   categories:
+     - cybersecurity
+     - tutorial
+   tags:
+     - penetration-testing
+     - tools
+   excerpt: "Brief description of your post"
+   ---
+   ```
+3. **Write your content** using Markdown below the front matter
+4. **Commit and push** - GitHub Pages will automatically build and deploy
+
+### Customizing the Theme
+
+The site uses the **Minimal Mistakes** Jekyll theme. Key customization files:
+
+- **`_config.yml`** - Main site configuration, navigation, author info
+- **`index.md`** - Homepage layout and content  
+- **`_pages/`** - Additional site pages (about, blog index, etc.)
+- **`assets/`** - Images, CSS overrides, and other assets
+
+### Local Development
+
+To test changes locally:
+
+1. Install Ruby and Jekyll: `gem install jekyll bundler`
+2. Run: `bundle exec jekyll serve`
+3. Visit: `http://localhost:4000`
+
+For more customization options, see the [Minimal Mistakes documentation](https://mmistakes.github.io/minimal-mistakes/).
+
+---
+
 ## 🧨 Disclaimer
 
 This repo is for **educational** and **ethical** purposes only. Use your skills responsibly and legally.
 
 ---
 
-Made with ❤️ using [TryHackMe](https://tryhackme.com/) paths and personal learning notes.
+Made with ❤️ using [TryHackMe](https://tryhackme.com/) paths and [Jekyll](https://jekyllrb.com/) with [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
