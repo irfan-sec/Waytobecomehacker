@@ -1,4 +1,10 @@
-🚨 Cyber Security Career Path: Incident Responder
+---
+layout: page
+title: "🚨 Incident Responder Career Path"
+permalink: /IncidentResponder/
+---
+
+# 🚨 Cyber Security Career Path: Incident Responder
 Role Focus: Identify, contain, and mitigate cyberattacks while they are actively unfolding.
 
 🧠 About the Role

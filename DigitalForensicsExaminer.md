@@ -1,4 +1,10 @@
-🧪 Cyber Security Career Path: Digital Forensics Examiner
+---
+layout: page
+title: "🧪 Digital Forensics Examiner Career Path"
+permalink: /DigitalForensicsExaminer/
+---
+
+# 🧪 Cyber Security Career Path: Digital Forensics Examiner
 Role Focus: Investigate security incidents and cybercrimes by collecting, analyzing, and reporting on digital evidence.
 
 🧠 About the Role

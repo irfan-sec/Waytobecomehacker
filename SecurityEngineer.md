@@ -1,4 +1,10 @@
-🔧 Cyber Security Career Path: Security Engineer
+---
+layout: page
+title: "🔧 Security Engineer Career Path"
+permalink: /SecurityEngineer/
+---
+
+# 🔧 Cyber Security Career Path: Security Engineer
 Role Focus: Design, monitor, and maintain security controls, systems, and networks to prevent cyberattacks.
 
 🛠️ About the Role

@@ -1,4 +1,10 @@
-🛡️ Cyber Security Career Path: Security Analyst
+---
+layout: page
+title: "🛡️ Security Analyst Career Path"
+permalink: /SecurityAnalyst/
+---
+
+# 🛡️ Cyber Security Career Path: Security Analyst
 Role Focus: Maintaining and enhancing the security of an organisation's data and digital assets.
 
 🔍 About the Role

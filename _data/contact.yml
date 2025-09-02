@@ -1,0 +1,19 @@
+contact:
+  type: email
+  value: # Add email if desired
+
+  # social media links
+social_links:
+  github: irfan-sec
+  twitter: # Add if desired
+  linkedin: # Add if desired
+
+# SEO & Analytics settings  
+analytics:
+  google:
+    id: # Add Google Analytics if desired
+  
+  # Page verification for search engines
+verification:
+  google: # Add Google verification
+  bing: # Add Bing verification

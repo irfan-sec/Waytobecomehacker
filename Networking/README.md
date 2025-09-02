@@ -1,3 +1,9 @@
+---
+layout: page
+title: "🌐 Networking Learning Path"
+permalink: /Networking/
+---
+
 # 🌐 Networking: Zero to Hero
 
 Welcome to **Networking: Zero to Hero** – a comprehensive guide to learning computer networking **from the basics to advanced concepts**.  

@@ -1,5 +1,6 @@
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Built With](https://img.shields.io/badge/built%20with-Markdown-blue)
+![Built With](https://img.shields.io/badge/built%20with-Jekyll-blue)
+![Theme](https://img.shields.io/badge/theme-Chirpy-purple)
 ![Hosted On](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-lightgrey)
 
 # 🧠 Way to become Hacker
@@ -106,3 +107,69 @@ This repo is for **educational** and **ethical** purposes only. Use your skills 
 ---
 
 Made with ❤️ using [TryHackMe](https://tryhackme.com/) paths and personal learning notes.
+
+---
+
+## 📝 Contributing to the Blog
+
+This site is built with **Jekyll** using the **Chirpy** theme and hosted on **GitHub Pages**. Here's how to contribute content:
+
+### Adding Blog Posts
+
+1. **Create a new markdown file** in the `_posts/` directory
+2. **Use the naming convention**: `YYYY-MM-DD-title-with-hyphens.md`
+3. **Add front matter** at the top:
+
+```yaml
+---
+title: "Your Post Title"
+date: 2024-01-20 14:30:00 +0000
+categories: [Category1, Category2]
+tags: [tag1, tag2, tag3]
+---
+```
+
+4. **Write your content** in Markdown below the front matter
+
+### Available Categories
+- `[Getting Started, Beginner]` - For newcomers to cybersecurity
+- `[Tools, Professional Development]` - Tool tutorials and guides
+- `[Home Lab, Practical Guide]` - Hands-on setup guides
+- `[Career Advice, Industry]` - Professional development content
+
+### Suggested Tags
+Use relevant tags like: `cybersecurity`, `tools`, `nmap`, `burp-suite`, `kali-linux`, `career`, `beginner`, `homelab`, etc.
+
+### Adding Career Path Pages
+
+Career path pages go in the root directory with front matter:
+
+```yaml
+---
+layout: page
+title: "🔐 Your Role Career Path"
+permalink: /YourRole/
+---
+```
+
+### Local Development
+
+To test changes locally:
+
+```bash
+# Install dependencies
+bundle install
+
+# Serve the site locally
+bundle exec jekyll serve
+
+# View at http://localhost:4000/Waytobecomehacker
+```
+
+### Guidelines
+
+- **Write practical, actionable content**
+- **Include code examples and commands when relevant**
+- **Use clear headings and structure**
+- **Add links to related content**
+- **Keep cybersecurity ethics in mind**

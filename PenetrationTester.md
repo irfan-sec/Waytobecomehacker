@@ -1,4 +1,10 @@
-💥 Cyber Security Career Path: Penetration Tester
+---
+layout: page
+title: "💥 Penetration Tester Career Path"
+permalink: /PenetrationTester/
+---
+
+# 💥 Cyber Security Career Path: Penetration Tester
 Role Focus: Ethically hack into systems, networks, and applications to find and report vulnerabilities before malicious hackers do.
 
 🧠 About the Role

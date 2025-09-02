@@ -1,0 +1,96 @@
+# Site settings
+title: "Way to become Hacker"
+tagline: "A comprehensive guide to cybersecurity careers and ethical hacking"
+description: >-
+  A practical guide to launching your cyber security career — from total beginner to job-ready roles.
+  Inspired by TryHackMe's learning paths, this repo outlines how to specialize in different cyber security domains.
+
+# Fill in the protocol & hostname for your site
+url: "https://irfan-sec.github.io"
+baseurl: "/Waytobecomehacker"
+
+# The language of the webpage
+lang: en
+
+# Change to your timezone
+timezone: UTC
+
+# GitHub Pages theme
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# Site author
+author:
+  name: irfan-sec
+  email: # Add your email if you want
+
+# Avatar
+avatar: ""
+
+# Social media settings
+social:
+  name: irfan-sec
+  email: # Add email if you want
+  links:
+    - https://github.com/irfan-sec
+
+# Theme mode (light or dark)
+theme_mode: # [light|dark]
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Jekyll Archives (if available with GitHub Pages)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: "/tags/:name/"
+    category: "/categories/:name/"
+
+# Collections
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+# Page default settings
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+# Exclude from processing
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - tools/
+  - docs/
+  - LICENSE
