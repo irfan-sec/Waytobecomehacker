@@ -1,8 +1,9 @@
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Built With](https://img.shields.io/badge/built%20with-Markdown-blue)
+![Built With](https://img.shields.io/badge/built%20with-Jekyll-red)
+![Theme](https://img.shields.io/badge/theme-Minimal%20Mistakes-blue)
 ![Hosted On](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-lightgrey)
 
-# 🧠 Way to become Hacker
+# 🧠 Way to Become Hacker
 
 > A practical guide to launching your cyber security career — from total beginner to job-ready roles.  
 > Inspired by TryHackMe’s learning paths, this repo outlines how to specialize in different cyber security domains.
