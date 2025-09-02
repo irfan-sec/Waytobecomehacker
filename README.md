@@ -72,8 +72,8 @@ This project exists to:
 
 ## 🚀 My Learning Roadmap
 
-- [ ] Introduction to Cybersecurity
-- [ ] Networking Basics
+- [x] Introduction to Cybersecurity
+- [x] Networking Basics
 - [ ] Linux Fundamentals
 - [ ] Scripting with Bash and Python
 - [ ] Web Application Security
