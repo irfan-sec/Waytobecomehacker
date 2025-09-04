@@ -110,7 +110,11 @@ All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cy
           <ul>
             <li><a href="Web-Hacking-Tools/BurpSuite/">Burp Suite</a> - Web vulnerability scanner</li>
             <li><a href="Web-Hacking-Tools/Metasploit-Notes/">Metasploit</a> - Penetration testing framework</li>
-            <li>OWASP ZAP - Web application security scanner</li>
+            <li><a href="Web-Hacking-Tools/OWASP-ZAP/">OWASP ZAP</a> - Web application security scanner</li>
+            <li><a href="Web-Hacking-Tools/SQLMap/">SQLMap</a> - SQL injection testing tool</li>
+            <li><a href="Web-Hacking-Tools/Gobuster/">Gobuster</a> - Directory/file discovery</li>
+            <li><a href="Web-Hacking-Tools/Hydra/">Hydra</a> - Network login cracker</li>
+            <li><a href="Web-Hacking-Tools/Nikto/">Nikto</a> - Web server vulnerability scanner</li>
           </ul>
         </div>
       </div>
