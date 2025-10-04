@@ -49,8 +49,10 @@ All paths are based on **[TryHackMe](https://tryhackme.com/)** — a hands-on cy
 ### Core Knowledge Areas
 - **[Networking](./Networking/)** - Network fundamentals and tools (Nmap, Wireshark)
 - **[Linux Fundamentals](./Linux-Fundamentals/)** - Essential Linux commands and security
+- **[Scripting](./Scripting/)** - Bash and Python for security automation
 - **[Web Security](./Web-Security/)** - Web application security fundamentals
 - **[OWASP Top 10](./OWASP/)** - Critical web application security risks
+- **[Cryptography](./Cryptography/)** - Cryptography basics for security professionals
 - **[Exploitation Techniques](./Exploitation/)** - Privilege escalation and exploitation
 - **[CTF Guide](./CTF/)** - Capture The Flag competition strategies
 - **[Bug Bounty](./BugBounty/)** - Getting started with bug bounty hunting
@@ -84,9 +86,10 @@ This project exists to:
 - [x] Introduction to Cybersecurity
 - [x] Networking Basics
 - [x] Linux Fundamentals
-- [ ] Scripting with Bash and Python
+- [x] Scripting with Bash and Python
 - [x] Web Application Security
 - [x] OWASP Top 10 Vulnerabilities
+- [x] Cryptography Fundamentals
 - [ ] Vulnerability Scanning (e.g., Nmap, Nessus)
 - [x] Exploitation Basics (Metasploit, Privilege Escalation)
 - [x] Capture The Flag (CTF) practice
