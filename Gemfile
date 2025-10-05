@@ -1,13 +1,10 @@
 source "https://rubygems.org"
 
-# This is the default theme for new Jekyll sites.
-gem "jekyll", "~> 4.3.0"
+# GitHub Pages compatibility (includes Jekyll)
+gem "github-pages", group: :jekyll_plugins
 
 # This is the theme for GitHub Pages
 gem "minimal-mistakes-jekyll"
-
-# GitHub Pages compatibility
-gem "github-pages", group: :jekyll_plugins
 
 # Jekyll plugins
 group :jekyll_plugins do
